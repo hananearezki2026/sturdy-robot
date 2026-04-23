@@ -1,0 +1,27 @@
+# PDF to CSV Converter
+
+I created this project to extract data from a PDF invoice and convert it into a structured CSV file. I designed the script to handle special characters, line breaks, and to clean numeric data (converting commas to dots) for easier analysis.
+
+## Features
+* **Text Extraction**: Uses `pdfplumber` to pull raw text from PDF documents.
+* **Data Cleaning**: Automatically removes unnecessary spaces and summary rows (like "TOTAL").
+* **Formatting**: Formats prices and totals into valid numbers (floats) for data science tasks.
+* **Export**: Generates a clean, UTF-8 encoded CSV file.
+
+## Tools
+* Python 3 / Google Colab
+* Pandas & pdfplumber
+
+---
+
+Ce projet me permet d'extraire proprement les données d'une facture PDF pour les transformer en fichier CSV exploitable. J'ai conçu ce script pour gérer les caractères spéciaux, les sauts de ligne et l'harmonisation des formats numériques (conversion des virgules en points).
+
+## Fonctionnalités
+* **Extraction ciblée** : Utilisation de `pdfplumber` pour lire le contenu textuel.
+* **Nettoyage de données** : Suppression des espaces inutiles et des lignes de calcul global.
+* **Formatage** : Conversion automatique des colonnes de prix en nombres (float) pour faciliter l'analyse.
+* **Export** : Génération d'un fichier CSV structuré et encodé en UTF-8.
+
+## Outils
+* Python 3 / Google Colab
+* Pandas & pdfplumber
